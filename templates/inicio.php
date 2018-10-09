@@ -16,8 +16,9 @@
 </section>
 <section id="ofrecemos" class="template-section padding-50">
   <div class="contenedor">
+  <h3>Te ofrecemos </h3>
    <div class="grid">
-       <h3>Te ofrecemos</h3>
+       
        <div class="col3">
            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/honradez.png" alt="Honradez">
            <p>Honradez y seriedad absoluta</p>
