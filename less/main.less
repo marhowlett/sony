@@ -48,6 +48,9 @@
     .col3 {
         width: 25%;
     }
+    .col4 {
+        width: 100%;
+    }
 }
 
 /*Ajuste general*/
@@ -73,13 +76,21 @@
     }
 
     h2 {
-        color: @amarillo;
+        color: white;
         font-family: 'Bebas Neue';
-        font-size: 2.5em;
+        font-size: 4.5em;
         font-weight: normal;
         line-height: 1.3em;
 
     }
+    h3 {
+         color: white;
+        font-family: 'Myriad Pro';
+        
+        font-weight: normal;
+        
+    }
+    
 
     p,
     ul {
@@ -92,6 +103,49 @@
 #banner {
       background: url(../img/banner.png) no-repeat center;
     background-attachment: fixed;
+    
+    p,h2,h3{
+
+    position: relative;
+    text-align: center;
+    z-index: 100;
+    color: white;
+   
+   
+}
+   
+    
+        img {
+               display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+        }
+
+       
+        .btn {
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        
+    }
+
+.btn {
+    background-color: @azul;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 1.6em;
+    display: block;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: table;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+
+#ofrecemos {
     
 }
 

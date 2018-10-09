@@ -35,6 +35,9 @@
 .grid .col3 {
   width: 25%;
 }
+.grid .col4 {
+  width: 100%;
+}
 /*Ajuste general*/
 .template-section.padding-50 {
   padding: 50px 0;
@@ -53,11 +56,16 @@
   padding: 60px;
 }
 .template-section h2 {
-  color: #ddad00;
+  color: white;
   font-family: 'Bebas Neue';
-  font-size: 2.5em;
+  font-size: 4.5em;
   font-weight: normal;
   line-height: 1.3em;
+}
+.template-section h3 {
+  color: white;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
 }
 .template-section p,
 .template-section ul {
@@ -67,6 +75,37 @@
 #banner {
   background: url(../img/banner.png) no-repeat center;
   background-attachment: fixed;
+}
+#banner p,
+#banner h2,
+#banner h3 {
+  position: relative;
+  text-align: center;
+  z-index: 100;
+  color: white;
+}
+#banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+}
+#banner .btn {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.btn {
+  background-color: #0a82c6;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  font-size: 1.6em;
+  display: block;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  display: table;
+  vertical-align: middle;
+  margin-bottom: 30px;
 }
 #reparacion {
   background: url(../img/micro.png) no-repeat center;

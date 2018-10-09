@@ -5,16 +5,16 @@
 
 <section id="banner" class="template-section padding-50">
    <div class="contenedor">
-    <div class="grid">
-        <p>Hoy mismo</p>
+    
+        <h3>Hoy mismo</h3>
         <h2>Reparaciones garantizadas</h2>
         <p>De Pantallas LED, LCD, Smart y Plasma <br>Todas marcas</p>
         <a href="#" class="btn amarillo">CONTACTAR</a>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/marcas.png" alt="Logos">
-    </div>
+   
      </div>
 </section>
-<section id="banner" class="template-section">
+<section id="ofrecemos" class="template-section padding-50">
   <div class="contenedor">
    <div class="grid">
        <h3>Te ofrecemos</h3>
@@ -116,7 +116,7 @@ Envíanos la foto de la tarjeta que necesitas por <span>WhatsApp (744) 195 1898 
 NOSOTROS VAMOS</h2>
     <div class="datos">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/redes_so.png" alt="Correo"> Tel. (777) 243 1086 <br> Cel. (744) 195 1898 y (777) 190 1277 <br>  Servicio Sony Hitachi, Privada Lázaro Cárdenas 2, Jiutepec, Morelos, 62577, México. <br>serviciosonyhitachi@gmail.com <br> Encuéntranos en Google Maps: Servicio Sony-Hitachi
-        </div>
+    </div>
      </div>
     </div>
      </div>
