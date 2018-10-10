@@ -17,7 +17,7 @@
 </section>
 <section id="ofrecemos" class="template-section padding-50">
   <div class="contenedor">
-  <h3>Te ofrecemos </h3>
+  <h2>Te ofrecemos </h2>
    <div class="grid">
        
        <div class="col3">
@@ -70,7 +70,7 @@
 </section>
 <section id="treinta" class="template-section">
     <div class="contenedor">
-    <div class="grid">
+    <div class="grid invertido">
     <div class="col">
         <h3>30 años de experiencia a su servicio</h3>
         <p>Somos <span>Servicio Sony Hitachi</span>, la solución simple y efectiva para todos tus problemas de servicio, <span>reparación e instalacion en casa</span> de Cuernavaca, Morelos. ¡LLAME!   NOSOTROS VAMOS  y repararemos  sus <span>PANTALLAS LED, PANTALLAS LCD, PANTALLAS PLASMA, SMART TV  Y  HORNO DE MICRO ONDAS</span>   a la brevedad,  así, con una simpe llamada.</p>

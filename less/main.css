@@ -87,6 +87,8 @@ form {
 #banner {
   background: url(../img/banner.png) no-repeat center;
   background-attachment: fixed;
+  padding-bottom: 50px;
+  background-size: cover;
 }
 #banner p,
 #banner h2,
@@ -140,6 +142,7 @@ form {
 #reparacion {
   background: url(../img/micro.png) no-repeat center;
   background-attachment: fixed;
+  background-size: cover;
   padding-bottom: 50px;
 }
 #reparacion .btn {
@@ -164,6 +167,7 @@ form {
 #tarjetas {
   background: url(../img/tarjetas.png) no-repeat center;
   background-attachment: fixed;
+  background-size: cover;
   padding: 50px 0;
 }
 #tarjetas h2 {
@@ -178,15 +182,18 @@ form {
 #lineablanca {
   background: url(../img/fondo_lineablanca.png) no-repeat center;
   background-attachment: fixed;
+  background-size: cover;
   padding: 50px 0;
 }
 #galeria {
   background: url(../img/galeria.png) no-repeat center;
   background-attachment: fixed;
+  background-size: cover;
 }
 #contacto {
   background: url(../img/contacto.png) no-repeat center;
   background-attachment: fixed;
+  background-size: cover;
 }
 #contacto h2 {
   font-weight: bold;
@@ -223,4 +230,74 @@ footer h3 {
   color: #e0e4e7;
   font-weight: normal;
   margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  /*LOGO*/
+  .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+  }
+  .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  .template-section .col3 {
+    width: 100%;
+  }
+  .template-section h2 {
+    font-size: 4.1em;
+    line-height: 0.9em;
+  }
+  #banner img,
+  #lineablanca img {
+    max-width: 100%;
+  }
+  #banner .btn,
+  #lineablanca .btn {
+    margin-bottom: 30px;
+  }
+  #ofrecemos p {
+    margin-top: 10px;
+  }
+  #treinta img {
+    margin-top: 50px;
+  }
+  #treinta .btn {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+  }
+  #tarjetas p {
+    font-size: 1.2em;
+    position: relative;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
 }
