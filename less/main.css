@@ -135,6 +135,10 @@ form {
   margin: auto;
   margin-top: 30px;
 }
+#ofrecemos img.color {
+  margin-top: -57px;
+  margin-bottom: 30px;
+}
 #ofrecemos p {
   color: #7cc6ff;
   text-align: center;

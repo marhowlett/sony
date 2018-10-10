@@ -16,6 +16,7 @@
      </div>
 </section>
 <section id="ofrecemos" class="template-section padding-50">
+ <img class="color"src="<?php echo get_stylesheet_directory_uri(); ?>/img/color2.png" alt="Colores">
   <div class="contenedor">
   <h2>Te ofrecemos </h2>
    <div class="grid">
