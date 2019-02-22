@@ -10,7 +10,7 @@
         <h3>Hoy mismo</h3>
         <h2>Reparaciones garantizadas</h2>
         <p>De Pantallas LED, LCD, Smart y Plasma <br>Todas marcas</p>
-        <a href="#" class="btn amarillo">CONTACTAR</a>
+        <a href="http://tvservicio.com/#contacto" class="btn amarillo">CONTACTAR</a>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/marcas.png" alt="Logos">
    
      </div>
@@ -52,7 +52,7 @@
         <h2>HORNOS DE MICROONDAS DE TODAS LAS MARCAS</h2>
         <p>en Cuernavaca y sus alrededores. <br>
 ¡Llame, nosotros vamos!</p>
-   <a href="#" class="btn">CONTACTAR</a>
+   <a href="http://tvservicio.com/#contacto" class="btn">CONTACTAR</a>
     </div>
      
 </section>
@@ -64,7 +64,7 @@
       <h2>Línea Blanca</h2>
       <p>en Cuernavaca y sus alrededores. <br>
 ¡Llame, nosotros vamos!</p>
-   <a href="#" class="btn amarillo">CONTACTAR</a>
+   <a href="http://tvservicio.com/#contacto" class="btn amarillo">CONTACTAR</a>
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/linea_blanca.png" alt="Linea Blanca">
    
      </div>
@@ -79,7 +79,7 @@
 </p>
         <p>Hemos logrado esto gracias a la creatividad y profesionalismo de nuestro equipo. El estilo único e individual, y las cálidas relaciones con nuestros clientes nos han brindado mucho más que una buena reputación. </p>
         <p>Nuestra misión es llevar el trabajo de reparacion de  sus pantallas  y  horno de microondas  en  su hogar, a un nuevo nivel. Por ello es que usamos únicamente las últimas técnicas y tecnología, así como avanzados programas de computación que nos ayudan a trabajar más rápido y a ofrecerles a nuestros clientes un resultado perfecto.  </p>
-        <a href="#" class="btn ">CONTACTAR</a>
+        <a href="http://tvservicio.com/#contacto" class="btn ">CONTACTAR</a>
     </div>
      <div class="col">
          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/30.png" alt="30">
@@ -91,6 +91,8 @@
     <div class="contenedor">
    
     <h2>Galería</h2>
+    <?php echo do_shortcode( '[foogallery id="7"]' ); ?>  
+    
     </div>
      
 </section>
@@ -101,7 +103,7 @@
         <h2>venta de tarjetas </h2>
         <p>Tenemos venta de tarjetas para pantallas de todas marcas.<br>
 Envíanos la foto de la tarjeta que necesitas por <span>WhatsApp (744) 195 1898 </span> o <br> por correo <span>serviciosonyhitachi@gmail.com</span> y te diremos si la tenemos disponible.</p>
-   <a href="#" class="btn ">CONTACTAR</a>
+   <a href="http://tvservicio.com/#contacto" class="btn ">CONTACTAR</a>
    
      </div>
 </section>

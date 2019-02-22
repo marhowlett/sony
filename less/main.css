@@ -17,6 +17,9 @@
   transform: scale(1.6) translateY(17px);
 }
 /*Ajuste de FullWidth*/
+.home .row {
+  display: inherit!important;
+}
 .page-template .container {
   max-width: 100%;
   width: 100%;
@@ -226,6 +229,13 @@ form {
 .woodmart-prefooter {
   padding-bottom: 0px;
 }
+.menu {
+  margin-top: 40px;
+  font-size: 1.5em !important;
+}
+.menu2 {
+  margin-top: 40px;
+}
 footer {
   text-align: center;
   background-color: #1c3660;
@@ -270,7 +280,6 @@ footer h3 {
   }
   .template-section .col {
     min-height: auto;
-    padding: 20px;
   }
   .template-section .col3 {
     width: 100%;
