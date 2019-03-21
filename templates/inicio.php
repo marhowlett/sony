@@ -9,8 +9,8 @@
     
         <h3>Hoy mismo</h3>
         <h2>Reparaciones garantizadas</h2>
-        <p>De Pantallas LED, LCD, Smart y Plasma <br>Todas marcas</p>
-        <a href="http://tvservicio.com/#contacto" class="btn amarillo">CONTACTAR</a>
+        <p>De Pantallas LED, LCD, Smart y Plasma Todas marcas y Línea Blanca.</p>
+        <a href="#contacto" class="btn amarillo">CONTACTAR</a>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/marcas.png" alt="Logos">
    
      </div>
@@ -52,7 +52,7 @@
         <h2>HORNOS DE MICROONDAS DE TODAS LAS MARCAS</h2>
         <p>en Cuernavaca y sus alrededores. <br>
 ¡Llame, nosotros vamos!</p>
-   <a href="http://tvservicio.com/#contacto" class="btn">CONTACTAR</a>
+   <a href="#contacto" class="btn">CONTACTAR</a>
     </div>
      
 </section>
@@ -74,12 +74,13 @@
     <div class="grid invertido">
     <div class="col">
         <h3>30 años de experiencia a su servicio</h3>
-        <p>Somos <span>Servicio Sony Hitachi</span>, la solución simple y efectiva para todos tus problemas de servicio, <span>reparación e instalacion en casa</span> de Cuernavaca, Morelos. ¡LLAME!   NOSOTROS VAMOS  y repararemos  sus <span>PANTALLAS LED, PANTALLAS LCD, PANTALLAS PLASMA, SMART TV  Y  HORNO DE MICRO ONDAS</span>   a la brevedad,  así, con una simpe llamada.</p>
-        <p><span>Servicio Sony Hitachi</span> es una de las empresas de reparaciones más antiguas en  CUERNAVACA  y con mejor reputación de MORELOS. Fundada en 1989 por  el Ing. LUIS CARVANTES, cuenta con <span>30 años de experiencia</span>, ofreciéndole servicios de calidad a nuestros clientes. 
+        <p>Somos Servicio Sony Hitachi,la solución simple y efectiva para todos tus problemas de servicio, reparación e instalación en Cuernava, Mor. ¡Llame! Nosotros vamos. Reparamos pantallas LED, pantallas LCD, pantallas PLASMA, SMART TV ,HORNOS DE MICROONDAS y línea blanca.</p>
+        <p>Servicio Sony Hitachi es una de las empresas de reparación más antiguas en Cuernavaca y con mejor reputación de Morelos. Fundada en 1989 por el ing. LUIS CARVANTES, cuenta con 30 años de experiencia a su servicio.
 </p>
-        <p>Hemos logrado esto gracias a la creatividad y profesionalismo de nuestro equipo. El estilo único e individual, y las cálidas relaciones con nuestros clientes nos han brindado mucho más que una buena reputación. </p>
-        <p>Nuestra misión es llevar el trabajo de reparacion de  sus pantallas  y  horno de microondas  en  su hogar, a un nuevo nivel. Por ello es que usamos únicamente las últimas técnicas y tecnología, así como avanzados programas de computación que nos ayudan a trabajar más rápido y a ofrecerles a nuestros clientes un resultado perfecto.  </p>
-        <a href="http://tvservicio.com/#contacto" class="btn ">CONTACTAR</a>
+        <p>Hemos logrado esto gracias a la creatividad, el profesionalismo de nuestro equipo y el estilo único de nuestro SERVICIO A DOMICILIO. </p>
+        <p>Nuestra misión es llevar el trabajo de reparación de sus pantallas y hornos de microondas en su hogar, a un nuevo nivel. Por ello es que usamos únicamente las últimas técnicas y tecnología, así como avanzados programas de computación que nos ayudan a trabajar más rápido y a ofrecerles a nuestros clientes un resultado excelente. </p>
+        
+        <a href="#contacto" class="btn ">CONTACTAR</a>
     </div>
      <div class="col">
          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/30.png" alt="30">
@@ -91,7 +92,7 @@
     <div class="contenedor">
    
     <h2>Galería</h2>
-    <?php echo do_shortcode( '[foogallery id="7"]' ); ?>  
+    <?php echo do_shortcode( '[elfsight_instagram_feed id="1"]' ); ?>  
     
     </div>
      
@@ -102,8 +103,9 @@
     
         <h2>venta de tarjetas </h2>
         <p>Tenemos venta de tarjetas para pantallas de todas marcas.<br>
-Envíanos la foto de la tarjeta que necesitas por <span>WhatsApp (744) 195 1898 </span> o <br> por correo <span>serviciosonyhitachi@gmail.com</span> y te diremos si la tenemos disponible.</p>
-   <a href="http://tvservicio.com/#contacto" class="btn ">CONTACTAR</a>
+            Envíanos la foto de la tarjeta que necesitas por WhatsApp <a href="https://wa.me/527775989969" class="tel">(777) 5989969 </a> o <br> por correo <a class="tel" href="mailto:serviciosonyhitachi@gmail.com?Subject=Me gustaría obtener información">serviciosonyhitachi@gmail.com</a> y te diremos si la tenemos disponible.
+            </p>
+   <a href="#contacto" class="btn ">CONTACTAR</a>
    
      </div>
 </section>
@@ -112,7 +114,7 @@ Envíanos la foto de la tarjeta que necesitas por <span>WhatsApp (744) 195 1898 
     <div class="contenedor">
     <div class="grid">
      <div class="col">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sony.png" alt="Sony">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo (1).png" alt="Sony" class="sony">
           <p>Somos  la solución simple y efectiva para la reparación de su PANTALLA  LED, PANTALLAS LCD, PANTALLAS PLASMA, SMART TV  Y  HORNO DE MICROONDAS DE TODAS MARCAS ¡Lláme!   NOSOTROS VAMOS y  los repararemos  a la brevedad y en la comodiodad de su domicilio.</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/paypal2.png" alt="Paypal">
      </div>
@@ -120,19 +122,19 @@ Envíanos la foto de la tarjeta que necesitas por <span>WhatsApp (744) 195 1898 
          <h2>Servicio a Domicilio ¡LLAME! <br>
 NOSOTROS VAMOS</h2> 
     <div class="datos">
-                       <i class="fa fa-phone fa-lg" style="color:#0a82c6;"></i> <a href="https://wa.me/7772431086">Tel. (777) 243 1086</a>        
+        <i class="fa fa-phone fa-lg" style="color:#0a82c6;"></i> <span>Tel. 777 2431086  y  777 6080293   </span>     
     </div>
     <div class="datos">
-    <i class="fa fa-whatsapp fa-lg" style="color:#0a82c6;"></i> <a href="https://wa.me/7441951898">Cel. (744) 195 1898 </a> <span> y </span> <a href="https://wa.me/7771901277">(777) 190 1277 </a>
+    <i class="fa fa-whatsapp fa-lg" style="color:#0a82c6;"></i> <a href="https://wa.me/527771901277">Cel. 777 1901277 </a> 
     </div>
        <div class="datos">
-                       <i class="fa fa-home fa-lg" style="color:#0a82c6;"></i> <span> Servicio Sony Hitachi, Privada Lázaro Cárdenas 2, Jiutepec, Morelos, 62577, México.</span>      
+                       <i class="fa fa-home fa-lg" style="color:#0a82c6;"></i> <span>  Primera Privada Lázaro Cárdenas 2, Col. Amp. Bugambilias, 62577 Jiutepec, Mor.</span>      
     </div>
     <div class="datos">
-                       <i class="fa fa-envelope fa-lg" style="color:#0a82c6;"></i> <span>  serviciosonyhitachi@gmail.com</span>      
+                       <i class="fa fa-envelope fa-lg" style="color:#0a82c6;"></i> <a href="mailto:serviciosonyhitachi@gmail.com?Subject=Me gustaría obtener información">  serviciosonyhitachi@gmail.com</a>      
     </div>
     <div class="datos">
-                       <i class="fa fa-map-marker fa-lg" style="color:#0a82c6;"></i> <span> Encuéntranos en Google Maps: Servicio Sony-Hitachi</span>    
+                       <i class="fa fa-map-marker fa-lg" style="color:#0a82c6;"></i> <a href="https://goo.gl/maps/QyxS9wmtP9m" > Encuéntranos en Google Maps: Servicio Sony-Hitachi</a>    
                        <?php echo do_shortcode( '[caldera_form id="CF5babff4a364a4"]' ); ?>  
     </div>
      </div>

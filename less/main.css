@@ -80,11 +80,12 @@ form {
 .template-section h3 {
   color: white;
   font-family: 'Myriad Pro';
+  font-size: 1.8em;
   font-weight: normal;
 }
 .template-section p,
 .template-section ul {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-family: 'Myriad Pro';
 }
 #banner {
@@ -186,6 +187,12 @@ form {
 #tarjetas p span {
   color: #8ac6f5;
 }
+#tarjetas a {
+  color: white;
+}
+#tarjetas a.tel {
+  color: #0a82c6;
+}
 #lineablanca {
   background: url(../img/fondo_lineablanca.png) no-repeat center;
   background-attachment: fixed;
@@ -207,6 +214,10 @@ form {
   color: #1c3660;
   font-size: 3.2em;
   text-align: left;
+}
+#contacto img.sony {
+  margin-top: -140px;
+  margin-bottom: -136px;
 }
 #contacto p {
   color: #5b5b5f;
@@ -235,6 +246,7 @@ form {
 }
 .menu2 {
   margin-top: 40px;
+  text-align: center;
 }
 footer {
   text-align: center;

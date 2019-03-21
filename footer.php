@@ -33,7 +33,7 @@
              <h3>© 2018 Todos los derechos reservados</h3>
            </div>
            <div class="col">
-             <h3>Soluciones Web: EsBrillante</h3>
+             <h3>Soluciones Web: <a href="https://esbrillante.mx/">EsBrillante</a></h3>
            </div>
             </div>
             </div>
